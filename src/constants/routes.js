@@ -1,7 +1,7 @@
-import Home from '../pages/Home/Home';
-import About from '../pages/About/About';
-import List from '../pages/List/List';
-import PageNotFound from '../pages/PageNotFound/PageNotFound';
+import Home from '../pages/HomePage/HomePage';
+import About from '../pages/AboutPage/AboutPage';
+import List from '../pages/ListPage/ListPage';
+import PageNotFound from '../pages/NotFoundPage/NotFoundPage';
 
 export default {
     '/': Home,

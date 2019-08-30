@@ -1,6 +1,6 @@
 <template>
     <main>
-        <Header />
+        <TheHeader />
         <section class="main_style">
             <header>Welcome!</header>
             <p>
@@ -11,12 +11,12 @@
 </template>
 
 <script>
-    import Header from './../../components/Header/Header.vue';
+    import TheHeader from '../../components/TheHeader/TheHeader.vue';
 
     export default {
-        name: 'Home',
+        name: 'HomePage',
         components: {
-            Header
+            TheHeader
         }
     }
 </script>

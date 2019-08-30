@@ -15,14 +15,6 @@
     </header>
 </template>
 
-<script>
-    let data = {
-        styleObject: {
-            background: 'blue'
-        }
-    }
-</script>
-
 <style scoped>
     .test {
         background: black;
@@ -34,7 +26,7 @@
         padding: 1rem 1.5rem;
         color: white;
         background: #000044;
-        font-family: "Gill Sans"
+        font-family: "Gill Sans";
     }
 
     ul {
